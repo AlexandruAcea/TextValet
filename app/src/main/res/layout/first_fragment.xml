@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/unit_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Unit convertor"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/unit_title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="20"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/unitfrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/unit_title"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/number"
+            android:text="inch"
+            android:fontFamily="monospace"
+            android:textColor="#FF5722"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/unit_title"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/unitfrom"
+            android:text="to"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/unitto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/unit_title"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/to"
+            android:text="centimeter"
+            android:fontFamily="monospace"
+            android:textColor="#2196F3"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/number2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/number"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="20"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/unitfrom2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/number"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/number"
+            android:text="in"
+            android:fontFamily="monospace"
+            android:textColor="#FF5722"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/to2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/number"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/unitfrom2"
+            android:text="to"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/unitto2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/number"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/to2"
+            android:text="cm"
+            android:fontFamily="monospace"
+            android:textColor="#2196F3"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/contacts_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Phone numbers"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:fontFamily="monospace"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/phone_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Phone numbers"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/arond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phone_title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="\@@"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phone_title"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/arond"
+            android:text="a"
+            android:fontFamily="monospace"
+            android:textColor="#f1c40f"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/arond2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/arond"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="\@@"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/arond"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/arond2"
+            android:text="Mom"
+            android:fontFamily="monospace"
+            android:textColor="#f1c40f"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/custom_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Custom shortcuts"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tflip1   (╯°□°)╯︵ ┻━┻"
+            android:textSize="20dp"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/custom_title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="omw      on my way"
+            android:textSize="20dp"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/text1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

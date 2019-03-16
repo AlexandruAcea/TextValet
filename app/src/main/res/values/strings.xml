@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TextValet</string>
+    <string name="accessibility_service_description">In order to achieve the full functionality of TextValet, turn accesibility setting ON, it allows the app to always work in the background.\n\nIt won\'t affect your battery! I promise</string>
+</resources>
